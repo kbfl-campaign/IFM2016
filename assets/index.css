@@ -30,6 +30,18 @@ h2 {
   margin-top: 3em;
 }
 
+.heroine-hill .container {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.heroine-hill img { display:none;}
+@media (min-width: 992px) {
+  .heroine-hill .container {
+    background: transparent;
+  }
+  .heroine-hill img { display:inline-block;}
+}
+
+
 .petition {
   background-color: #b11f16;
   color: #fff;
